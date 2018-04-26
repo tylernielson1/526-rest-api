@@ -69,7 +69,6 @@ function load(filename) {
   * Saves the data to the persistent file
   */
 function save() {
-  console.log(data);
   fs.writeFileSync(datafile, JSON.stringify(data));
 }
 
