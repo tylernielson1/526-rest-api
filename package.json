@@ -5,12 +5,18 @@
   "main": "main.js",
   "scripts": {
     "start": "node main.js",
-    "test": "jest"
+    "test": "jest",
+    "monitor": "nodemon main.js"
   },
   "author": "Nathan H. Bean",
   "license": "MIT",
   "devDependencies": {
     "jest": "^22.4.3",
     "require": "^2.4.20"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.3"
   }
 }
